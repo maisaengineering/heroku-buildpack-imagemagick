@@ -54,7 +54,7 @@ mkdir -p $IM_LOCATION
 
 # Install ImageMagick
 IM_VERSION="ImageMagick-6.8.8-10"
-IM_URL="http://sourceforge.net/projects/imagemagick/files/6.8.8-sources/$IM_VERSION.tar.gz"
+IM_URL="https://launchpad.net/imagemagick/main/6.8.6-6/+download/ImageMagick-6.8.6-6.tar.gz"
 puts-step "Bundling ImageMagick version $IM_VERSION"
 curl --silent --max-time 120 --location "$IM_URL" | tar xz
 
